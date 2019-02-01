@@ -11,6 +11,7 @@
         ":automergeMinor",
         ":rebaseStalePrs",
         ":separatePatchReleases",
+        ":masterIssueApproval",
         ":timezone(Asia/Tokyo)",
         "group:linters",
         "group:monorepos"
