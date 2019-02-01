@@ -1,6 +1,6 @@
 {
   "name": "@akameco/renovate-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "author": "akameco <akameco.t@gmail.com>",
   "license": "MIT",
