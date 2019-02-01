@@ -5,33 +5,35 @@
   "author": "akameco <akameco.t@gmail.com>",
   "license": "MIT",
   "renovate-config": {
-    "extends": [
-      "config:base",
-      ":automergeMinor",
-      ":rebaseStalePrs",
-      ":separatePatchReleases",
-      ":timezone(Asia/Tokyo)",
-      "group:linters",
-      "group:monorepos"
-    ],
-    "packageRules": [
-      {
-        "groupName": "eslint and prettier",
-        "packageNames": [
-          "^eslint-",
-          "prettier"
-        ],
-        "automerge": true
-      },
-      {
-        "groupName": "dev utils",
-        "packageNames": [
-          "all-contributors-cli",
-          "husky",
-          "lint-staged"
-        ],
-        "automerge": true
-      }
-    ]
+    "default": {
+      "extends": [
+        "config:base",
+        ":automergeMinor",
+        ":rebaseStalePrs",
+        ":separatePatchReleases",
+        ":timezone(Asia/Tokyo)",
+        "group:linters",
+        "group:monorepos"
+      ],
+      "packageRules": [
+        {
+          "groupName": "eslint and prettier",
+          "packageNames": [
+            "^eslint-",
+            "prettier"
+          ],
+          "automerge": true
+        },
+        {
+          "groupName": "dev utils",
+          "packageNames": [
+            "all-contributors-cli",
+            "husky",
+            "lint-staged"
+          ],
+          "automerge": true
+        }
+      ]
+    }
   }
 }
