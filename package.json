@@ -13,7 +13,8 @@
         ":separatePatchReleases",
         ":timezone(Asia/Tokyo)",
         "group:linters",
-        "group:monorepos"
+        "group:monorepos",
+        "schedule:weekly"
       ],
       "lockFileMaintenance": {
         "enabled": true,
