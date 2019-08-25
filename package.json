@@ -12,6 +12,7 @@
         ":rebaseStalePrs",
         ":separatePatchReleases",
         ":timezone(Asia/Tokyo)",
+        "group:allNonMajor",
         "group:linters",
         "group:monorepos",
         "group:definitelyTyped",
