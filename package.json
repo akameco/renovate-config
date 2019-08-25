@@ -32,15 +32,6 @@
             "prettier"
           ],
           "automerge": true
-        },
-        {
-          "groupName": "dev utils",
-          "packageNames": [
-            "all-contributors-cli",
-            "husky",
-            "lint-staged"
-          ],
-          "automerge": true
         }
       ]
     }
