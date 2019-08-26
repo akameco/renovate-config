@@ -12,27 +12,12 @@
         ":rebaseStalePrs",
         ":separatePatchReleases",
         ":timezone(Asia/Tokyo)",
+        ":maintainLockFilesMonthly",
         "group:allNonMajor",
         "group:linters",
         "group:monorepos",
         "group:definitelyTyped",
         "schedule:weekly"
-      ],
-      "lockFileMaintenance": {
-        "enabled": true,
-        "schedule:": [
-          "before 3am on the first day of the month"
-        ]
-      },
-      "packageRules": [
-        {
-          "groupName": "eslint and prettier",
-          "packageNames": [
-            "^eslint-",
-            "prettier"
-          ],
-          "automerge": true
-        }
       ]
     }
   }
