@@ -10,7 +10,6 @@
         "config:base",
         ":automergeMinor",
         ":rebaseStalePrs",
-        ":separatePatchReleases",
         ":timezone(Asia/Tokyo)",
         ":maintainLockFilesMonthly",
         "group:allNonMajor",
