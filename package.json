@@ -12,6 +12,7 @@
         ":rebaseStalePrs",
         ":timezone(Asia/Tokyo)",
         ":maintainLockFilesMonthly",
+        ":automergeLinters",
         "group:allNonMajor",
         "group:linters",
         "group:monorepos",
