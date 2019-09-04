@@ -13,6 +13,7 @@
         ":timezone(Asia/Tokyo)",
         ":maintainLockFilesMonthly",
         ":automergeLinters",
+        ":automergeTypes",
         "group:allNonMajor",
         "group:linters",
         "group:monorepos",
