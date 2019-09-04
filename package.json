@@ -1,23 +1,22 @@
 {
   "name": "@akameco/renovate-config",
   "version": "1.9.0",
-  "main": "index.js",
   "author": "akameco <akameco.t@gmail.com>",
   "license": "MIT",
   "renovate-config": {
     "default": {
       "extends": [
         "config:base",
+        ":automergeLinters",
         ":automergeMinor",
+        ":automergeTypes",
+        ":maintainLockFilesMonthly",
         ":rebaseStalePrs",
         ":timezone(Asia/Tokyo)",
-        ":maintainLockFilesMonthly",
-        ":automergeLinters",
-        ":automergeTypes",
         "group:allNonMajor",
+        "group:definitelyTyped",
         "group:linters",
         "group:monorepos",
-        "group:definitelyTyped",
         "schedule:weekly"
       ]
     }
